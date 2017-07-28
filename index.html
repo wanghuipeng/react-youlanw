@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <!-- 高清方案脚本 -->
+  <script src="https://os.alipayobjects.com/rmsportal/lvEQQbNgHsIxVfXLkmuX.js"></script>
+  <script>
+    if(!window.Promise) {
+      document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"'+'>'+'<'+'/'+'script>');
+    }
+  </script>
+  <link rel="stylesheet" href="./dist/index.css">
+</head>
+<body>
+  <div id="root"/>
+  
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=PnYGbChqQrsmSUczLQrRZvw2"></script>
+  
+  <script src="https://as.alipayobjects.com/g/component/??react/15.3.2/react.min.js,react/15.3.2/react-dom.min.js"></script>
+  <script src="./dist/shared.js"></script>
+  <script src="./dist/index.js"></script>
+  <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+  <script type="text/javascript">
+	// 百度地图API功能
+	var map = new BMap.Map("allmap");
+	var point = new BMap.Point(116.331398,39.897445);
+	map.centerAndZoom(point,12);
+</script>
+</body>
+</html>

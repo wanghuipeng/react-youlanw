@@ -1,0 +1,46 @@
+.chatItem{padding:0.3rem;border-bottom: 1px solid #ddd;position: relative;background-color: #fff;}
+.chatItem>.left{    position: absolute;
+    left: 0.3rem;
+    top: 0.3rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;}
+.chatItem>.right{padding-left: 1.2rem;}
+.chatItem>.right .title{    position: relative;
+    height: 0.5rem;
+    line-height: 0.5rem;}
+.chatItem>.right .title .name{    font-size: 0.35rem;
+width: 50%;display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;}
+.chatItem>.right .title .time{text-align: right;position: absolute;right: 0;top: 0;font-size: 0.25rem;color: #999;width: 2.5rem;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.chatItem>.right .cont{margin: 0.1rem auto;}
+.chatItem>.right .cont .text{margin: 0.1rem auto;}
+.chatItem>.right .cont .imgs{margin: 0.1rem auto;}
+.chatItem>.right .cont .imgs img{    width: 3.5rem;
+    height: auto;
+    margin-right: 0.2rem;}
+.chatItem>.right .commu{    margin: 0.1rem auto;
+    padding-right: 2.5rem;
+    position: relative;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;}
+.chatItem>.right .commu .left{    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;}
+.chatItem>.right .commu .right{    position: absolute;
+    right: 0;
+    top: 0.04rem;}
+.chatItem>.right .commu .right span{width: 100px;text-align: center;display: inline-block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;border: 1px solid #666;border-radius: 30px;display: inline-block;height: 0.4rem;line-height: 0.4rem;}
+.chatItem>.right .commu .right i{width: 32px;height: 32px;display: inline-block;vertical-align:-0.03rem;background-size: 32px !important;    margin-right: 0.1rem;
+    margin-left: -0.1rem;}
+.chatItem>.right .commu .right .zan i{background: url(../../images/zan.png) no-repeat;}
+.chatItem>.right .commu .right .shuo i{background: url(../../images/shuo.png) no-repeat;}
+.chatItem>.right .commu .right span{margin-left: 0.2rem;}
+.chatItem>.right .comment{    margin: 0.1rem auto;
+    padding: 0.1rem 0.15rem;
+    background-color: #ececec;border-radius: 8px;}
+.chatItem>.right .comment .chat-cont .name{color: #999;margin-right: 0.1rem;}
+.chat-cont li{font-size: 0.25rem;}

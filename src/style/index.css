@@ -1,0 +1,23 @@
+*{margin:0;padding:0;-webkit-appearance: none;-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);outline:none;}
+body{color:#666;-webkit-text-size-adjust:none;min-width:320PX;line-height:1.5;font-weight:normal;background:#f0f0f0;}h1,h2,h3,h4,h5,h6{font-size:100%}form{display:inline}ul,ol{list-style:none}a{text-decoration:none;color:#666;}a:hover{color:#2bb7ac;text-decoration:none}
+input,textarea{color:#666;}input,button,select,textarea{outline:none;}img{border:0;vertical-align:middle}table,tbody,tr,td{border-spacing:0;}html,body{height:100%;}.page-wrapper{min-height:100%;position:relative;}
+.red{color:#e60606;}
+.blue{color:#2bb7ab;}
+.c333{color:#333}
+.c666{color:#666!important;;}
+.c999{color:#999!important;}
+.cbbb{color:#bbb;}
+.orange{color:#ff6c00!important;}
+.a-blue{color:#469ad6;}
+.f12{font-size:12PX;}
+.f13{font-size:13PX;}
+.f14{font-size:14PX;}
+.f15{font-size:15PX;}
+.f16{font-size:16PX;}
+.f17{font-size:17PX;}
+.f18{font-size:18PX;}
+.f20{font-size:20PX;}
+.f22{font-size:22PX;}
+.f25{font-size:25PX;}
+.f28{font-size:28PX;}
+.f35{font-size:35PX;}

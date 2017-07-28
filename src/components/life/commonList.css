@@ -1,0 +1,14 @@
+.commonList li{display: inline-block;width: 50%;background-color: #fff;padding: 0.2rem 0;position: relative;height: 1rem;border-top: 1px solid #ddd;border-left: 1px solid #ddd;margin-left: -1px;margin-top: -1px;}
+.commonList li>a{display: block;}
+.commonList li p,.commonList li h2{padding-left: 1.2rem;}
+.commonList li h2{    color: #333;
+    font-size: 0.3rem;
+    margin-bottom: 0.1rem;}
+.commonList li p{font-size: 0.25rem;
+    letter-spacing: 2px;
+    color: #999;}
+.commonList li img{display: block;
+    width: 0.55rem;
+    position: absolute;
+    left: 0.3rem;
+    top: 0.4rem;}
