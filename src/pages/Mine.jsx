@@ -15,7 +15,7 @@ class Mine extends Component {
 	  }
 	
 	getData = () => {
-        fetch("http://10.12.1.44:8080/api/v1/account/profile?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&client_id=test&token=e9505a27cfcf487a8760b8ad5963db8f&uid=56741ada71d03f4122b9f5a6&limit=10&limit=&province_id=&city_id=&area_id=&address=&sign=",
+        fetch("/api/v1/account/profile?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&client_id=test&token=e9505a27cfcf487a8760b8ad5963db8f&uid=56741ada71d03f4122b9f5a6&limit=10&limit=&province_id=&city_id=&area_id=&address=&sign=",
         {
         	mode: 'cors',
         	cache: 'default'

@@ -24,7 +24,7 @@ class Life extends Component {
 	  }
 	
 	getData = () => {
-        fetch("http://10.12.1.44:8080/api/v5/adv/life/findTogether?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&client_id=test&token=33b7274b7b1b4ecb971c20a63a888251&type=1&page=1&limit=10",
+        fetch("/api/v5/adv/life/findTogether?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&client_id=test&token=33b7274b7b1b4ecb971c20a63a888251&type=1&page=1&limit=10",
         {
         	mode: 'cors',
         	cache: 'default'

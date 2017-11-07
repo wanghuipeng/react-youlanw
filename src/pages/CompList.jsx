@@ -17,7 +17,7 @@ class CompList extends Component {
 	}
      
 	getDataAll = (district,nature,sort) => {
-		fetch("http://10.12.1.44:8080/api/v5/enterprise/findByKeyword?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&client_id=test&token=&baidu_city_id=1&keyword=&city_no=310100&district_no="+district+"&nature="+nature+"&server=&page=1&sort="+sort+"&limit=25",
+		fetch("/api/v5/enterprise/findByKeyword?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&client_id=test&token=&baidu_city_id=1&keyword=&city_no=310100&district_no="+district+"&nature="+nature+"&server=&page=1&sort="+sort+"&limit=25",
 		{
         	mode: 'cors',
         	cache: 'default'
@@ -29,7 +29,7 @@ class CompList extends Component {
 	}
 	
 	getDataLocal = () => {
-		fetch("http://10.12.1.44:8080/api/v5/enterprise/findByLocation?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&client_id=test&branch_id=1&token=33b7274b7b1b4ecb971c20a63a888251&longitude=121.478416&latitude=31.236256&page=1&limit=15",
+		fetch("/api/v5/enterprise/findByLocation?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&client_id=test&branch_id=1&token=33b7274b7b1b4ecb971c20a63a888251&longitude=121.478416&latitude=31.236256&page=1&limit=15",
 		{
         	mode: 'cors',
         	cache: 'default'

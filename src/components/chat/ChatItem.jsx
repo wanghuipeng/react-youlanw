@@ -16,7 +16,7 @@ class ChatItem extends Component {
 	  }
 	
 	praise = (id,count) => {
-        fetch("http://10.12.1.44:8080/api/v6/article/ramble?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&client_id=test&token=e9505a27cfcf487a8760b8ad5963db8f&article_id="+id,
+        fetch("/api/v6/article/ramble?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&client_id=test&token=e9505a27cfcf487a8760b8ad5963db8f&article_id="+id,
         {method: "POST",mode: 'cors',
         	cache: 'default'})
             .then((res) => { console.log(res.status);return res.json(); })

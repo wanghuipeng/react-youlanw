@@ -6,6 +6,16 @@ const pxtorem = require('postcss-pxtorem');
 
 
 module.exports = {
+	devServer: {
+		 historyApiFallback: true,
+		 port: 8000,
+		 host: 'localhost',
+		 proxy: {
+		 '/api/*': {
+		 target: 'http://10.0.11.44:8080'
+		 }
+    }
+	},
   devtool: 'source-map', // or 'inline-source-map'
 
   entry: { "index": path.resolve(__dirname, 'src/index') },

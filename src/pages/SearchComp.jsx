@@ -13,7 +13,7 @@ class SearchComp extends Component {
 	  }
 	
 	getData = () => {
-        fetch("http://10.12.1.44:8080/api/v5/enterprise/findByKeyword?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&client_id=test&token=&baidu_city_id=289&keyword="+this.state.keyword+"&longitude=121.478416&latitude=31.236256&limit=15&page=1",
+        fetch("/api/v5/enterprise/findByKeyword?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&client_id=test&token=&baidu_city_id=289&keyword="+this.state.keyword+"&longitude=121.478416&latitude=31.236256&limit=15&page=1",
         {
         	mode: 'cors',
         	cache: 'default'

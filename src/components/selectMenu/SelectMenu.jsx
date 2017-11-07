@@ -57,7 +57,7 @@ class SelectMenu extends Component {
 	}
 	
 	getCity = () => {
-		fetch("http://10.12.1.44:8080/api/v4/branch/findCityByBranch?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&branch_id=1",
+		fetch("/api/v4/branch/findCityByBranch?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&branch_id=1",
 		{
         	mode: 'cors',
         	cache: 'default'
@@ -68,7 +68,7 @@ class SelectMenu extends Component {
 			.catch((e) => { console.log(e.message); });
 	}
     getDistrict = (id) => {
-		fetch("http://10.12.1.44:8080/api/v4/branch/findDistrictByCity?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&city_id="+id,
+		fetch("/api/v4/branch/findDistrictByCity?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&city_id="+id,
 		{
         	mode: 'cors',
         	cache: 'default'
@@ -80,7 +80,7 @@ class SelectMenu extends Component {
 	}
 
     getData = (id) => {
-		fetch("http://10.12.1.44:8080/api/v4/branch/findDistrictByDistrict?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&district_id="+719,
+		fetch("/api/v4/branch/findDistrictByDistrict?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&district_id="+719,
 		{
         	mode: 'cors',
         	cache: 'default'

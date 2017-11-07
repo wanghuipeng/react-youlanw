@@ -9,7 +9,7 @@ class Banner extends Component {
 	    }
 	  }
   getData = () => {
-        fetch("http://10.12.1.44:8080/api/v5/adv/homeBannerByBranchId?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&client_id=test&token=08f0faadaf5343729c7beb003fa08840&branch_id=1",
+        fetch("/api/v5/adv/homeBannerByBranchId?appkey=145FB9D1-2643-4B18-B9EA-8CD2C44FAC00&client_id=test&token=08f0faadaf5343729c7beb003fa08840&branch_id=1",
         {
         	mode: 'cors',
         	cache: 'default'
